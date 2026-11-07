@@ -1,0 +1,29 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Sensitive project data
+data/raw/
+data/processed/
+reference/
+outputs/
+
+# Temporary files and logs
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+
+s2_milestone1_flags.csv
+s4/
